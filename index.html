@@ -15,7 +15,6 @@
 </head>
 <body class="body">
     <nav class="navigation navbar sticky-top navbar-light">
-
         <div class="navigation__brand">
             <a class="navbar-brand" href="#">
                 <img class="navigation__brand-img" src="static/images/sources/python_sprints_logo.png" alt="Python Sprints Logo">
@@ -30,29 +29,27 @@
         </div>
 
         <div class="navigation__button-close-container">
-            <a href="#" class="navigation__button-close" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="navigation__button-close" onclick="closeNav()">
+                <i class="navigation__button-close fas fa-times"></i>
+            </a>
         </div>
     </nav>
 
     <div class="navigation__content container-fluid">
         <div class="row">
             <div class="col-md-12">
-
                 <h1 class="navigation__title">Python Sprints</h1>
                 <h2 class="navigation__subtitle"><em>The World Is Waiting For Your Code</em></h2>
 
-                <!--<div id="myNav" class="full-screen-nav__overlay">-->
                 <div class="navigation__overlay">
                     <div class="navigation__overlay-content">
                         <a class="navigation__link" href="#">About</a>
-                        <a class="navigation__link" href="#">Services</a>
-                        <a class="navigation__link" href="#">Clients</a>
+                        <a class="navigation__link" href="#">Getting Started</a>
+                        <a class="navigation__link" href="#">Projects</a>
                         <a class="navigation__link" href="#">Contact</a>
                     </div>
                 </div>
 
-                <!--test furhter content and stickiness of the navbar-->
-                <!--<img style="max-width: 100%" src="static/images/title_with_road.jpg">-->
             </div>
         </div>
     </div>
@@ -72,20 +69,28 @@
     <div class="people container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="section-title">This is Us</h2>
+                <h2 class="section-title">Our Teams All Over</h2>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <img class="people__img img-fluid rounded" src="https://secure.meetupstatic.com/photos/event/a/e/1/4/highres_466004564.jpeg">
+                <div class="no-gutters__col col-md-6">
+                    <img class="people__img img-fluid" src="https://secure.meetupstatic.com/photos/event/a/e/1/4/highres_466004564.jpeg">
                 </div>
-                <div class="col-md-6">
-                    <img class="people__img img-fluid rounded" src="https://secure.meetupstatic.com/photos/event/4/2/0/9/highres_465616905.jpeg">
+                <div class="no-gutters__col col-md-6">
+                    <img class="people__img img-fluid" src="https://secure.meetupstatic.com/photos/event/4/2/0/9/highres_465616905.jpeg">
                 </div>
+            </div>
+                    <div class="row">
+            <div class="no-gutters__col col-md-6">
+                <img class="people__img img-fluid" src="https://secure.meetupstatic.com/photos/event/e/a/3/2/highres_466799954.jpeg">
+            </div>
+            <div class="no-gutters__col col-md-6">
+                <img class="people__img img-fluid" src="https://secure.meetupstatic.com/photos/event/4/a/2/3/highres_466818979.jpeg">
+            </div>
             </div>
         </div>
     </div>
 
-    <div class="services container">
+    <div class="services container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <h2 class="section-title">What Do We Do?</h2>
@@ -93,21 +98,21 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="no-gutters__col col-md-6">
                 <img class="services__img img-fluid rounded" src="static/images/sources/helloquence-61189.jpg">
             </div>
-            <div class="col-md-6">
+            <div class="no-gutters__col col-md-6">
                 <h2 class="services__title text-right">Helping Beginners To Get Good</h2>
-                <p class="section-content text-right">We are open to people who just started to program and need guidance and mentorship. We can help you become a better programmer by collaborating with others and reading loads of code. Come and try it - you will not be disappointed.</p>
+                <p class="section-content text-right">We are open to people who just started to program and need guidance and mentorship. We can help you become a better programmer by collaborating with others and reading loads of code. Come and try it - you will not be disappointed. We normally have a mixture of seasoned and new coders during every sprint so advice is literally at hands reach.</p>
             </div>
 
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="no-gutters__col col-md-6">
                 <h2 class="services__title text-left">Engaging Core Developers</h2>
-                <p class="section-content text-left">For those of us who are programming on the advanced level there are always new tasks to test their mettle. We fix bugs, we improve implementation and add features. No matter your style you will be able to find a ticket to your liking.</p>
+                <p class="section-content text-left">For those of you who are programming on the advanced level there are always new tasks to test your mettle. We fix bugs, we improve implementations and add features. No matter your style you will be able to find a ticket to your liking. The sprints are always advertised well ahead of the time so you can prepare yourself by checking on the issues that will be worked on early enough.</p>
             </div>
-            <div class="col-md-6">
+            <div class="no-gutters__col col-md-6">
                 <img class="services__img img-fluid rounded" src="static/images/sources/alex-kotliarskyi-361099.jpg">
             </div>
         </div>

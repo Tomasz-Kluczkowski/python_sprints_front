@@ -68,64 +68,55 @@
 
 .navigation__hamburger-bar {
     width: 2em;
-    height: 0.25em;
+    height: 0.20em;
     background-color: #ffffff;
     margin: 0.3em 0.4em;
     transition: all 0.5s;
 }
 
-/* The Overlay (background) */
 .navigation__overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
-/* Position the content inside the overlay */
 .navigation__overlay-content {
     position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
-/* The navigation links inside the overlay */
 .navigation__overlay .navigation__link {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+    display: block;
+    transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .navigation__link:hover, .navigation__link:focus {
     color: #f1f1f1;
 }
 
 .navigation__button-close-container {
     display: none;
-
 }
 
 .navigation__button-close {
-    vertical-align: middle;
-    line-height: 0;
-    font-size: 3em;
-    text-decoration: none!important;
+    margin-right: 0.25em;
+    font-size: 1.3em;
     color: #818181;
-    margin: 0.25em;
-    transition: all 0.3s; /* Transition effects on hover (color) */
+    transition: all 0.3s;
 }
 
 .navigation__button-close:hover, .navigation__button-close:focus {
@@ -141,19 +132,41 @@
 }
 
 .section-content {
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
 
 .people {
     margin-top: 5%;
-    background: linear-gradient(#3297ae, darkcyan);
+    background: linear-gradient(darkslateblue, darkcyan);
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
 }
 
-.people__img {
+
+/*.people .row:last-child .people__img {*/
+    /*padding-bottom: 15%;*/
+/*}*/
+
+.services {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.no-gutters__col {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .services__title {
-    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 2.5%;
+}
+
+.services .section-content {
+    padding-left: 10%;
+    padding-right: 10%;
 }

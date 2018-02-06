@@ -1,0 +1,53 @@
+.body {
+    font-size: 80%;
+}
+
+/* Mobiles 576px and up */
+@media (min-width: 576px) {
+    .body {
+        font-size: 90%;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .body {
+        font-size: 100%;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .body {
+    font-size: 120%;
+  }
+    /*.about__company-name {*/
+    /*font-size: 14vw;*/
+/*}*/
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .body {
+        font-size: 140%;
+    }
+    /*.about__company-name {*/
+    /*font-size: 12vw;*/
+    /*}*/
+    /*.navbar-nav .nav-item .nav-link {*/
+    /*font-size: 1.3em;*/
+/*}*/
+}
+
+/*!* Setting for retina displays *!*/
+/*@media*/
+    /*(-webkit-min-device-pixel-ratio: 2) and (min-width: 800px),*/
+    /*(min-resolution: 192dpi) and (min-width: 800px) {*/
+        /*.navbar__brand-img {*/
+            /*width: 3em;*/
+        /*}*/
+    /*.navbar-nav .nav-item .nav-link {*/
+
+        /*font-size: 150%;*/
+    /*}*/
+/*}*/

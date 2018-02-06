@@ -2,12 +2,18 @@
     overflow-x: hidden;
 }
 
-.navigation {
+.navigation__content {
     margin-top: -66px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../images/title_glass_building.jpg") no-repeat center center;
     background-size: cover;
     max-width: 100vw;
     height: 100vh;
+}
+
+.navigation__brand {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: black 1px solid;
+    border-radius: 6px;
 }
 
 .navigation__brand-name {
@@ -18,6 +24,7 @@
 
 .navigation__brand-img {
     width: 2em;
+    padding-left: 0.5em;
 }
 
 .navigation__button-open-container {

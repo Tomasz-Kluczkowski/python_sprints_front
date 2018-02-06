@@ -1,10 +1,10 @@
 function openNav() {
-    $(".bar").css("background-color", "transparent");
-    document.getElementById("myNav").style.width = "100%";
+    $(".full-screen-nav__bar").css("background-color", "transparent");
+    $(".full-screen-nav__overlay").css("width", "100%");
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
-    $(".bar").css("background-color", "#ffffff");
-    document.getElementById("myNav").style.width = "0%";
+    $(".full-screen-nav__bar").css("background-color", "#ffffff");
+    $(".full-screen-nav__overlay").css("width", "0%");
 }

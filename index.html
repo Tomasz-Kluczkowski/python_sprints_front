@@ -15,35 +15,34 @@
     <div class="full-screen-nav container-fluid">
         <div class="row">
             <div class="col-md-12">
-        <!-- Use any element to open/show the overlay navigation menu -->
+                <!-- Use any element to open/show the overlay navigation menu -->
+                <div class="full-screen-nav__button-open" onclick="openNav()">
+                    <div class="full-screen-nav__bar"></div>
+                    <div class="full-screen-nav__bar"></div>
+                    <div class="full-screen-nav__bar"></div>
+                </div>
 
-                <span class="full-screen-nav__button-open" onclick="openNav()">
-                    <div class="nav__container">
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                        <div class="bar"></div>
+                <h1 class="full-screen-nav__title">Python Sprints</h1>
+                <h2 class="full-screen-nav__subtitle"><em>The World Is Waiting For Your Code</em></h2>
+
+                <div id="myNav" class="full-screen-nav__overlay">
+                    <!-- Button to close the overlay navigation -->
+                    <div class="full-screen-nav__button-close-container">
+                        <a href="javascript:void(0)" class="full-screen-nav__button-close" onclick="closeNav()">&times;</a>
                     </div>
-                </span>
-<!--<span class="full-screen-nav__button-position" onclick="openNav()"><i class="full-screen-nav__button  fas fa-caret-square-down"></i></span>-->
-        <h1 class="full-screen-nav__title">Python Sprints</h1>
-        <h2 class="full-screen-nav__subtitle"><em>The World Is Waiting For Your Code</em></h2>
-                <div id="myNav" class="overlay">
-
-  <!-- Button to close the overlay navigation -->
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-  <!-- Overlay content -->
-  <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
-  </div>
-
-</div>
+                    <!-- Overlay content -->
+                    <div class="full-screen-nav__overlay-content">
+                        <a class="full-screen-nav__link" href="#">About</a>
+                        <a class="full-screen-nav__link" href="#">Services</a>
+                        <a class="full-screen-nav__link" href="#">Clients</a>
+                        <a class="full-screen-nav__link" href="#">Contact</a>
+                    </div>
+                </div>
+                <img style="max-width: 100%" src="static/images/title_with_road.jpg">
             </div>
         </div>
     </div>
+
 
 
 

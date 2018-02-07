@@ -291,12 +291,35 @@
 .footer__icon {
     font-size: 2em;
     margin: 1em;
-    color: white;
+    color: #035e9a;
+    transition: all 0.4s;
 }
 
-.footer__text {
+.footer__text, .footer__text-copyright {
     font-size: 1.5em;
-    color: white;
+    color: #7fa0c2;
 }
 
+.section-content.footer__text {
+    margin-top: 5%;
+    color: #7fa0c2;
+}
 
+.footer__sponsor-link {
+    text-align: center;
+    display: block;
+    margin-top: 10%;
+}
+
+.footer__link {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #035e9a;
+    display: block;
+    text-decoration: none!important;
+    transition: all 0.4s;
+}
+
+.footer__link:hover, .footer__icon:hover {
+    color: #aa5555;
+}

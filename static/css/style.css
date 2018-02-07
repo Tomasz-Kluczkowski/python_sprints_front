@@ -358,3 +358,7 @@
 .footer__link:hover, .footer__icon:hover {
     color: #aa5555;
 }
+
+.footer__brand-img {
+    width: 2em;
+}

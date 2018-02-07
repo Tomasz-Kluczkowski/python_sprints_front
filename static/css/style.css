@@ -125,6 +125,7 @@
 
 .section-title {
     font-size: 4em;
+    color: #072948;
     text-align: center;
     font-family: 'Encode Sans Expanded', sans-serif;
     margin-top: 5%;
@@ -147,8 +148,8 @@
 
 .events .section-title {
     color: #f1f1f1;
+    margin-bottom: 5%;
 }
-/* Test of hover over images effects*/
 
 .events__img {
     border: #072948 1px solid;
@@ -158,7 +159,6 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.9);
-    /*background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.8) 30%, rgba(27, 224, 14, 0.7) 60%, rgba(23, 54, 2, 0.7) 100%);*/
 }
 
 .events__img-title {
@@ -167,11 +167,11 @@
     font-size: 1.5em;
     margin-left: 2%;
     padding-bottom: 1%;
-    border-bottom: 0.5pt solid #1d4f66;
+    border-bottom: 0.5pt solid #035e9a;
 }
 
 .events__img-subtitle {
-    color: #3297ae;
+    color: #035e9a;
     text-align: left;
     font-size: 1em;
     margin-top: 0;
@@ -237,7 +237,6 @@
     }
 }
 
-
 .services .section-title {
     margin-bottom: 8%;
 }
@@ -247,34 +246,60 @@
     padding-right: 0;
 }
 
-.services__title {
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 2.5%;
-}
-
-@media (max-width: 1300px) {
-    .services__title {
-        margin-top: 0;
-    }
-}
-
-.services__divider {
-    width: 50%;
-}
-
 .services__divider-right {
-    margin-right:10%;
+    width: 50%;
+    margin-right:5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .services__divider-left {
-    margin-left:10%;
+    width: 50%;
+    margin-left:5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-.services .section-content {
-    padding-left: 10%;
-    padding-right: 10%;
+.services__title {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: #072948;
+    font-size: 1.7em;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.services__content {
+    font-size: 1.0em;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media (min-width: 768px) {
+    .services__title {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .services__divider-left {
+        margin-left: 10%;
+    }
+    .services__divider-right {
+        margin-right: 10%;
+    }
+    .services__title {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%;
+    }
+    .services__content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
 .footer {

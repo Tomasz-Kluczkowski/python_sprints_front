@@ -1,11 +1,11 @@
 /*Colors In Use*/
-/*aliceblue - site's background color*/
+/*aliceblue - site's background color, footer sections*/
 /*#818181 - grey, full screen navigation links, not hovered*/
 /*#F1F1F1 - pale white, full screen navigation links hovered*/
 /*#072948 - dark blue, main titles*/
-/*#7FA0C2 - light blue, some accents, footer*/
-/*#035E9A - strong blue, borders, links in the footer*/
-/*#A55605 - orange-brown, links hover in the footer*/
+/*#7FA0C2 - light blue, some accents, footer links*/
+/*#035E9A - strong blue, borders*/
+/*#A55605 - orange-brown, hover in the footer*/
 /*antiquewhite - title of images in events*/
 
 .body {
@@ -339,7 +339,7 @@
 .footer__icon {
     font-size: 2em;
     margin: 1em;
-    color: #035e9a;
+    color: #7fa0c2;
     transition: all 0.5s;
 }
 
@@ -350,7 +350,7 @@
 
 .section-content.footer__text {
     margin-top: 5%;
-    color: #7fa0c2;
+    color: aliceblue;
 }
 
 .footer__sponsor-link {
@@ -360,10 +360,11 @@
 }
 
 .footer__link {
+    margin-top: 2%;
     text-align: center;
     font-size: 1.25em;
     font-family: 'Playfair Display', serif;
-    color: #035e9a;
+    color: #7fa0c2;
     display: block;
     text-decoration: none!important;
     transition: all 0.5s;
@@ -375,4 +376,11 @@
 
 .footer__brand-img {
     width: 2em;
+}
+
+.footer__divider {
+    border-bottom:  rgba(127, 160, 194, 0.35) 2px solid;
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
